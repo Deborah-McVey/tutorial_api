@@ -10,7 +10,7 @@ class TutorialsController < ApplicationController
 
   # GET /tutorials/1
   def show
-    @tutorial = Tutorial.find(params[:id, :title])
+    @tutorial = Tutorial.find(params[:id])
     render json: @tutorial, status: :ok
   end
 

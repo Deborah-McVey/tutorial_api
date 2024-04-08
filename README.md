@@ -44,3 +44,5 @@ PUT	/api/tutorials/:id	update a Tutorial by :id
 DELETE	/api/tutorials/:id	delete a Tutorial by :id
 DELETE	/api/tutorials	delete all Tutorials
 GET	/api/tutorials?title=[keyword]	find all Tutorials which title contains keyword
+
+** todo: look at routes and controller for find by title keyword **
